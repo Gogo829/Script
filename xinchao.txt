@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Đăng Ký Kênh Văn Thành IOS";
+shared.LoaderTitle = "lesamsung";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -79,7 +79,7 @@ local v5 = CreateObject("ScreenGui", {
     Parent = game.CoreGui
 });
 local v6 = CreateObject("Frame", {
-    Name = "Main",
+    Name = "trang chủ",
     Parent = v5,
     BackgroundColor3 = v2.LoaderData.Colors.Main,
     BorderSizePixel = 0,
@@ -90,7 +90,7 @@ local v6 = CreateObject("Frame", {
 });
 v4(12, v6);
 local v7 = CreateObject("ImageLabel", {
-    Name = "UserImage",
+    Name = "thông tin người dùng",
     Parent = v6,
     BackgroundTransparency = 1,
     Image = "rbxassetid://110365071974573",
@@ -99,10 +99,10 @@ local v7 = CreateObject("ImageLabel", {
 });
 v4(25, v7);
 local v8 = CreateObject("TextLabel", {
-    Name = "UserName",
+    Name = "tên người dùng",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: Văn Thành IOS",
+    Text = "Leminhnghi92 hub",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -111,7 +111,7 @@ local v8 = CreateObject("TextLabel", {
     TextXAlignment = Enum.TextXAlignment.Left
 });
 local v9 = CreateObject("TextLabel", {
-    Name = "Top",
+    Name = "đứng đầu",
     TextTransparency = 1,
     Parent = v6,
     BackgroundColor3 = Color3.fromRGB(255, 255, 255),
@@ -125,7 +125,7 @@ local v9 = CreateObject("TextLabel", {
     TextXAlignment = Enum.TextXAlignment.Left
 });
 local v10 = CreateObject("TextLabel", {
-    Name = "Title",
+    Name = "tiêu đề",
     Parent = v6,
     TextTransparency = 1,
     BackgroundColor3 = Color3.fromRGB(255, 255, 255),
@@ -151,7 +151,7 @@ local v11 = CreateObject("Frame", {
 });
 v4(8, v11);
 local v12 = CreateObject("Frame", {
-    Name = "Progress",
+    Name = "tiến triển.",
     Parent = v11,
     BackgroundColor3 = v2.LoaderData.Colors.LoaderSplash,
     BackgroundTransparency = 1,
@@ -160,7 +160,7 @@ local v12 = CreateObject("Frame", {
 });
 v4(8, v12);
 local v13 = CreateObject("TextLabel", {
-    Name = "StepLabel",
+    Name = "nhãn bước",
     Parent = v6,
     BackgroundTransparency = 1,
     Position = UDim2.new(0.5, 0, 1, - 25),
@@ -310,7 +310,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
-    Title = "Văn Thành IOS",
+    Title = "lesamsung",
     SubTitle = "",
     TabWidth = 160,
     Theme = "Light",
